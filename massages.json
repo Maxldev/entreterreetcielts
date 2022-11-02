@@ -1,0 +1,214 @@
+{
+    "massages": [
+        {
+            "path": "abhyanga",
+            "name": "Abhyanga",
+            "shortdescription": "Massage enveloppant. Reconnecte le physique et le mental. Indiqué en cas de fatigue générale.",
+            "description": "Le massage ABHYANGA est un massage ayurvédique de tradition indienne pratiqué sur l’ensemble du corps avec de l’huile de coco chaude. Son rythme est modéré et fluide. Très enveloppant, ce soin harmonise le corps et l’esprit. Cette technique de massage est particulièrement recommandée pour les états de fatigue générale.",
+            "benefits": [
+                "Calme le système nerveux",
+                "Accroit l’énergie vitale",
+                "Favorise la concentration",
+                "Aide à mieux gérer les émotions",
+                "Bon préambule à la méditation"
+            ],
+            "bannerimg": "banniere-abhyanga.jpg",
+            "durations": [
+                "1h",
+                "1h30"
+            ],
+            "prices": [
+                "80 €",
+                "110 €"
+            ],
+            "fidelities": [
+                " 7 massages d'1h",
+                "Fidélité 5 massages d'1h30"
+            ],
+            "bonus": [
+                "8e offert",
+                "6e offert"
+            ],
+            "img1": "abhyanga.jpg",
+            "img2": "noix-de-coco.jpg"
+        },
+        {
+            "path": "balinais",
+            "name": "Balinais",
+            "shortdescription": "Favorise la libre circulation des fluides (sanguin et lymphatique). Facilite la récupération musculaire.",
+            "description": "Le massage BALINAIS est un massage de tradition indonésienne pratiqué sur l’ensemble du corps avec de l’huile. C’est un soin profond, relaxant et régénérant qui assouplit le corps et l’esprit. Cette technique de massage favorise la libre circulation des fluides et facilite la récupération musculaire.",
+            "benefits": [
+                "Permet une bonne préparation et récupération musculaire",
+                "Favorise la circulation sanguine et lymphatique",
+                "Évacue les tensions et la fatigue",
+                "Favorise la perte de poids par drainage"
+            ],
+            "bannerimg": "banniere-balinais.jpg",
+            "durations": [
+                "1h",
+                "1h30"
+            ],
+            "prices": [
+                "80 €",
+                "110 €"
+            ],
+            "fidelities": [
+                "Fidélité 7 massages d'1h",
+                "Fidélité 5 massages d'1h30"
+            ],
+            "bonus": [
+                "8e offert",
+                "6e offert"
+            ],
+            "img1": "balinais.jpg",
+            "img2": "serviettes-blanches.jpg"
+        },
+        {
+            "path": "dos",
+            "name": "Dos",
+            "shortdescription": "Massage exclusivement du dos. Associe différentes techniques en fonction des besoins.",
+            "description": "Le massage du dos, pratiqué sur table, relaxant et stimulant, associe différentes techniques choisies en fonctions des besoins.",
+            "benefits": [
+                "Apaise les tensions",
+                "Détend les muscles du dos",
+                "Soulage les contractures",
+                "Stimule la circulation "
+            ],
+            "bannerimg": "banniere-abhyanga.jpg",
+            "durations": [
+                "30 min"
+            ],
+            "prices": [
+                "40 €"
+            ],
+            "fidelities": [
+                "45 min"
+            ],
+            "bonus": [
+                "60 €"
+            ],
+            "img1": "dos.jpg",
+            "img2": "serviettes-roses.jpg"
+        },
+        {
+            "path": "shiatsu",
+            "name": "Shiatsu sur table",
+            "shortdescription": "Harmonise les énergies vitales. Permet une meilleure gestion des émotions. Apaise le mental.",
+            "description": "Le massage SHIATSU SUR TABLE est un massage de tradition japonaise pratiqué sur l’ensemble du corps habillé. La technique utilise la pression avec les pouces (shi signifie doigts et atsu, pression), les paumes et avant-bras le long des méridiens. Ce soin harmonise les énergies vitales, permet une meilleure gestion des émotions et diminue le stress.",
+            "benefits": [
+                "Diminue considérablement les tensions et le stress",
+                "Améliore la qualité du sommeil",
+                "Apporte la stabilité émotionnelle",
+                "Améliore le bon fonctionnement global de l’organisme"
+            ],
+            "bannerimg": "banniere-shiatsu.jpg",
+            "durations": [
+                "1h",
+                "1h30"
+            ],
+            "prices": [
+                "80 €",
+                "110 €"
+            ],
+            "fidelities": [
+                "Fidélité 7 massages d'1h",
+                "Fidélité 5 massages d'1h30"
+            ],
+            "bonus": [
+                "8e offert",
+                "6e offert"
+            ],
+            "img1": "shiatsu.jpg",
+            "img2": "serviettes-roses.jpg"
+        },
+        {
+            "path": "shirotchampi",
+            "name": "Shirotchampi",
+            "shortdescription": "Massage du haut du dos et de la tête. Évacue les tensions et le stress. Entretient la vue et la mémoire.",
+            "description": "Le massage SHIROTCHAMPI est un massage de tradition indienne pratiqué sur le haut du dos, le crâne et le visage. C’est un massage issu de la médecine ayurvédique. Lent et profond, il se pratique en position assise, sur une chaise de massage confortable, avec de l’huile de sésame ou de coco. Ce soin est particulièrement recommandé pour évacuer les tensions et le stress.",
+            "benefits": [
+                "Diminue les tensions intellectuelles",
+                "Soulage les maux de tête et les insomnies",
+                "Renforce la chevelure",
+                "Entretient la vue et la mémoire"
+            ],
+            "bannerimg": "banniere-shirotchampi.jpg",
+            "durations": [
+                "1h"
+            ],
+            "prices": [
+                "80 €"
+            ],
+            "fidelities": [
+                "Fidélité 7 massages d'1h"
+            ],
+            "bonus": [
+                "8e offert"
+            ],
+            "img1": "shirotchampi.jpg",
+            "img2": "noix-de-coco.jpg"
+        },
+        {
+            "path": "thailandais-huile",
+            "name": "Thaïlandais à l'huile",
+            "shortdescription": "Avec huile. Profond et tonique. Permet une excellente préparation musculaire et apaise le mental.",
+            "description": "Le massage THAÏLANDAIS est un massage de tradition thaïlandaise pratiqué sur l’ensemble du corps avec de l’huile. C’est une technique rythmée qui associe des manœuvres toniques avec des pressions profondes. Ce soin apaise le mental et permet une excellente préparation musculaire",
+            "benefits": [
+                "Apporte une détente profonde",
+                "Améliore les échanges cellulaires",
+                "Oxygène les muscles",
+                "Apporte un regain de vitalité"
+            ],
+            "bannerimg": "banniere-thailandais-huile.jpg",
+            "durations": [
+                "1h",
+                "1h30"
+            ],
+            "prices": [
+                "80 €",
+                "110 €"
+            ],
+            "fidelities": [
+                "Fidélité 7 massages d'1h",
+                "Fidélité 5 massages d'1h30"
+            ],
+            "bonus": [
+                "8e offert",
+                "6e offert"
+            ],
+            "img1": "thailandais-huile.jpg",
+            "img2": "huile-graines.jpg"
+        },
+        {
+            "path": "tuina",
+            "name": "Tuina minceur",
+            "shortdescription": "Massage du ventre, des fesses et des cuisses. Oxygène et détoxifie les tissus. Favorise l’amincissement. Uniquement en cure.",
+            "description": "Le massage TUINA MINCEUR est un massage de tradition chinoise pratiqué sur le ventre, les jambes et les fessiers. Il stimule le métabolisme par des techniques de digitopression, tonifie les tissus via des techniques de friction et de ventouses. Ce soin a des propriétés détoxifiantes et amincissantes. Uniquement en cure.",
+            "benefits": [
+                "Stimule le métabolisme",
+                "Favorise l'élimination des toxines et normalise le transit",
+                "Tonifie les tissus",
+                "Aide à la perte de poids et à l’amincissement"
+            ],
+            "bannerimg": "banniere-tuina.jpg",
+            "durations": [
+                "Cure Détox et Rafermissante",
+                "Cure Détox et Amincissante"
+            ],
+            "prices": [
+                "",
+                ""
+            ],
+            "fidelities": [
+                "90 €/séance",
+                "90 €/séance"
+            ],
+            "bonus": [
+                "3 à 6 séances d'1h30",
+                "6 à 12 séances d'1h30"
+            ],
+            "img1": "tuina.jpg",
+            "img2": "serviettes-blanches.jpg"
+        }
+    ]
+}
