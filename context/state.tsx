@@ -7,8 +7,8 @@ type massagesData = {
   massagesArray: Array<Massage>;
   massagesPathes: Array<string>;
   massage: Massage;
-  setMassageWithPath: () => void;
-;
+  setMassageWithPath: (path: string) => void;
+}
 
 const massagesDefaultValues: massagesData = {
   massagesArray: [],
@@ -25,8 +25,10 @@ export function AppWrapper({children}: ScriptProps) {
   const massagesPathes = extractPathes(massagesArray);
   const setMassageWithPath = (massagePath: string) => {
     massagesArray.forEach(massage => {
+
       if (massage.path === massagePath) {
         setMassage(massage);
+        console.log(massage);
       }
     })
   }
