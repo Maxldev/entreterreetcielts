@@ -5,7 +5,9 @@ import { AppWrapper } from '../context/state'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <AppWrapper>
-      <Component {...pageProps} />
+        {/*<Layout>*/}
+            <Component {...pageProps} />
+        {/*</Layout>*/}
     </AppWrapper>
   )
 }
