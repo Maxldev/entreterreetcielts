@@ -1,24 +1,50 @@
-import {createContext, useContext} from 'react';
+import {createContext, useContext, useState} from 'react';
 import Massage from "../model/massage";
-import massagesList from "../massages.json";
+import massagesJson from "../massages.json";
 import {ScriptProps} from "next/script";
 
-type massageType = {
-  massages: Array<Massage>;
+type massagesData = {
+  massagesArray: Array<Massage>;
+  massagesPathes: Array<string>;
+  massage: Massage;
+  setMassageWithPath: () => void;
+;
+
+const massagesDefaultValues: massagesData = {
+  massagesArray: [],
+  massagesPathes: [],
+  massage: {} as Massage,
+  setMassageWithPath: () => {},
 };
 
-const massageDefaultValues: massageType = {
-  massages: [],
-};
-
-const AppContext = createContext<massageType>(massageDefaultValues);
+const AppContext = createContext<massagesData>(massagesDefaultValues);
 
 export function AppWrapper({children}: ScriptProps) {
-  const massages = massagesList;
+  const [massage, setMassage] = useState<Massage>({} as Massage);
+  const massagesArray = massagesJson.massages;
+  const massagesPathes = extractPathes(massagesArray);
+  const setMassageWithPath = (massagePath: string) => {
+    massagesArray.forEach(massage => {
+      if (massage.path === massagePath) {
+        setMassage(massage);
+      }
+    })
+  }
+
+  function extractPathes (massages: Array<Massage>) {
+    return massages.map(massage => massage.path);
+  }
+
+  const value = {
+    massagesArray,
+    massagesPathes,
+    massage,
+    setMassageWithPath,
+  }
 
   return (
     <>
-      <AppContext.Provider value={massages}>
+      <AppContext.Provider value={value}>
         {children}
       </AppContext.Provider>
     </>
