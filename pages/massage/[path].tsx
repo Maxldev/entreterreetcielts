@@ -1,6 +1,7 @@
 import {useRouter} from "next/router";
 import Head from 'next/head';
 import {useAppContext} from "../../context/state";
+import Image from "next/image";
 /*import Banner from '../../components/Banner';
 import Gift from '../../components/Gift';
 import Price from '../../components/Price';
@@ -12,12 +13,13 @@ const Massage = () => {
   const path = router.query.path;
   useAppContext().setMassageWithPath(path);
   const massage = useAppContext().massage;
-  /*const massagesPathes = useAppContext().massagesPathes;*/
-  /* useEffect(() => {
-     if (!massagesPathes.includes(path)) {
-       router.push("/404")
-     }
-   }, [path, router])*/
+
+  // const massagesPathes = useAppContext().massagesPathes;
+  //  useEffect(() => {
+  //    if (massage === undefined) {
+  //      router.push("/404")
+  //    }
+  //  }, [path, router])
 
 
   return (
@@ -32,6 +34,7 @@ const Massage = () => {
           className="col-start-2 col-end-12 lg:col-start-3 lg:col-end-11 2xl:col-start-4 2xl:col-end-10 text-secred">
           {/*<Title title1={title} title2={massage.name}/>*/}
           <div>{massage.name}</div>
+          <Image src={`/images/massages/${massage.img1}`} alt={"Illustration 1 du massage" + massage.name} width={591} height={394} />
 
           <div>{massage.shortdescription}</div>
 
